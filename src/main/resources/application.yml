@@ -1,10 +1,13 @@
-
 server:
   port: 8080
 spring:
-  resources:
-    static-locations:
-      - classpath:/backend/
+  #设置静态资源访问位置
+  #mvc:
+    #static-path-pattern: /backend/**
+  #resources:
+    #映射机台资源访问位置
+    #static-locations:
+      #- classpath:/backend/
   application:
     name: reggie_take_out
   datasource:
